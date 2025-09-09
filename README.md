@@ -1,2 +1,4 @@
 # REAP
-Robust Energy Assessment and Planning
+**R**obust **E**nergy **A**ssessment and **P**lanning
+
+coming soon
