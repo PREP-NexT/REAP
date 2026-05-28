@@ -1,0 +1,15 @@
+variables,defaults,to_vary_LHS,to_vary_FF,LHS_lower_bound,LHS_upper_bound
+outlook,,,1,,
+demand,,,1,,
+carbon_tax_2030,37.5,1,,37.5,60
+annual_change_carbon_tax_2030,0,1,,0,0.05
+carbon_offset_limit,0.05,1,,0.05,0.1
+reserve_margin,0.27,1,,0.216,0.324
+carbon_offset_price,10,1,,10,45
+annual_change_fuel_price_hydrogen_import,0,1,,-0.05,0
+fuel_price_import_from_laos,53,1,,37.1,68.9
+fuel_price_import_from_vietnam,90,1,,63,117
+fuel_price_import_from_indonesia,102,1,,71.4,132.6
+fuel_price_import_from_australia,120,1,,84,156
+fuel_price_import_from_cambodia,137,1,,95.9,178.1
+fuel_price_import_from_malaysia,110,1,,77,143
