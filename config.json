@@ -1,0 +1,22 @@
+{
+    "general_parameters": {
+        "input_folder": "generated_inputs/input_s1_diversified_0.028",
+        "output_folder": "output",
+        "output_filename": "year",
+        "hour": 8760,
+        "month": 1,
+        "dt": 1,
+        "hours_in_year": 8760,
+        "price": 0
+    },
+    "hydro_parameters": {
+        "isinflow": false,
+        "error_threshold": 0.001,
+        "iteration_number": 1
+    },
+    "solver_parameters": {
+        "solver": "gurobi",
+        "timelimit": 360000
+        
+    }
+}
