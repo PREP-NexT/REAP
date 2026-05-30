@@ -247,6 +247,10 @@ PREP-SHOT and the broader REAP modelling effort build on the following work:
   *Communications Earth & Environment* 6, 928 (2025).
   [doi:10.1038/s43247-025-02861-6](https://doi.org/10.1038/s43247-025-02861-6)
 
+- Liu, Z. & He, X. **A renewable tango for drought-stricken power grids.**
+  *Nature Water* 4, 545–547 (2026).
+  [doi:10.1038/s44221-026-00625-w](https://doi.org/10.1038/s44221-026-00625-w)
+
 ## License
 
 See [LICENSE](LICENSE).
