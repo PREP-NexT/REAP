@@ -59,8 +59,7 @@ conda activate prep-shot
 The default solver is [Gurobi](https://www.gurobi.com/) (a license is
 required; free academic licenses are available). To use a different solver,
 edit `config.json` and set `solver_parameters.solver` to any Pyomo-
-compatible backend (`highs`, `cbc`, [`cuopt`](https://developer.nvidia.com/cuopt)
-for GPU, …) and install it separately.
+compatible backend (`highs`, `cbc`, …) and install it separately.
 
 For MPI batches, also install `mpi4py` (`pip install mpi4py`) and an MPI
 runtime such as Open MPI.
