@@ -2,9 +2,9 @@
 
 **REAP**: **R**obust **E**nergy **A**ssessment and **P**lanning
 
-REAP is a decision-analytic framework for robust and resilient energy planning
+**REAP** is a decision-analytic framework for robust and resilient energy planning
 under uncertainty. It pairs a capacity expansion model ([PREP-SHOT](https://prep-next.github.io/PREP-SHOT))
-with a scenario-design layer (factorial + Latin-Hypercube sampling) to
+with a scenario-design layer (factorial + Latin-Hypercube Sampling, LHS) to
 quantify how candidate plans perform across thousands of plausible futures.
 
 A typical REAP study has three stages, covered by this repository:
