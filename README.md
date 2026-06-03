@@ -1,6 +1,4 @@
-# REAP: **R**obust **E**nergy **A**ssessment and **P**lanning
-
-**REAP**: **R**obust **E**nergy **A**ssessment and **P**lanning
+# REAP: Robust Energy Assessment and Planning
 
 **REAP** is a decision-analytic framework for robust and resilient energy planning
 under uncertainty. It pairs a capacity expansion model ([PREP-SHOT](https://prep-next.github.io/PREP-SHOT))
