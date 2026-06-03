@@ -1,4 +1,4 @@
-# REAP
+# REAP: **R**obust **E**nergy **A**ssessment and **P**lanning
 
 **REAP**: **R**obust **E**nergy **A**ssessment and **P**lanning
 
