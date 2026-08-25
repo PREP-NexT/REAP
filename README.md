@@ -23,7 +23,8 @@ MPI-parallel batch execution.
 This repository accompanies the manuscript:
 
 > Shuyue Yan, Zhanwei Liu, and Xiaogang He.
-> **Singapore's pathways to a net-zero power sector in 2050** (Under Review).
+> **Robust pathways to net-zero power sectors in resource-constrained cities
+> under deep uncertainty** (Under Review).
 > Department of Civil and Environmental Engineering, National University of
 > Singapore.
 
