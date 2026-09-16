@@ -1,4 +1,17 @@
-# REAP: Robust Energy Assessment and Planning
+<p align="center">
+  <a href="https://github.com/PREP-NexT/REAP">
+    <img src="assets/REAP_logo.png" width="550" alt="REAP logo">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/"><img alt="Build" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple"></a>
+  <a href="https://github.com/PREP-NexT/REAP"><img src="https://img.shields.io/github/contributors/PREP-NexT/REAP.svg" alt="GitHub contributors"></a>
+  <a href="https://github.com/PREP-NexT/REAP"><img src="https://img.shields.io/github/issues/PREP-NexT/REAP.svg" alt="GitHub issues"></a>
+  <a href="https://twitter.com/PREPNexT_Lab"><img src="https://img.shields.io/twitter/follow/PREPNexT_Lab.svg?label=Follow&style=social" alt="Twitter Follow"></a>
+  <a href="https://github.com/PREP-NexT/REAP"><img src="https://img.shields.io/github/license/PREP-NexT/REAP.svg" alt="License"></a>
+  <a href="https://github.com/PREP-NexT/REAP"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source"></a>
+</p>
 
 **REAP** is a decision-analytic framework for robust and resilient energy planning
 under uncertainty. It pairs a capacity expansion model ([PREP-SHOT](https://prep-next.github.io/PREP-SHOT))
@@ -67,6 +80,7 @@ runtime such as Open MPI.
 
 ```
 prepshot/                          Model package (data loading, model, solver, rules)
+assets/                            Logo artwork (README banner + source variants)
 data/                              Source data (templates, sample input, scenario design)
 ├── default_parameters/            Parameter Excel files copied verbatim into every scenario
 ├── full_factorial_parameters/     Pre-baked variants picked by factorial level (e.g. demand_0.028.xlsx)
