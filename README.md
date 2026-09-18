@@ -46,6 +46,7 @@ This repository accompanies the manuscript:
 ## Table of contents
 
 - [Installation](#installation)
+  - [System requirements](#system-requirements)
 - [Project layout](#project-layout)
 - [Quick start](#quick-start)
 - [Workflow](#workflow)
@@ -75,6 +76,31 @@ compatible backend (`highs`, `cbc`, …) and install it separately.
 
 For MPI batches, also install `mpi4py` (`pip install mpi4py`) and an MPI
 runtime such as Open MPI.
+
+### System requirements
+
+**Tested environment.** The released version has been tested on Linux
+(Ubuntu 22.04 LTS) with Python 3.9.23, Pyomo 6.4.4, PyOptInterface 0.2.5, and
+Gurobi 10.0.2. Exact versions of all dependencies are pinned in
+`environment.yml`.
+
+**Hardware.** No non-standard hardware is required. The figures below were
+measured on a workstation with an Intel Xeon w9-3495X (56 cores / 112 threads)
+and 503 GB of RAM; Gurobi parallelises across available cores, so run times on
+a typical desktop will be longer. A single-scenario run at the default
+8,760-hour resolution peaks at about 5.3 GB of resident memory, so 8 GB of RAM
+is sufficient. MPI batch runs scale with the number of ranks.
+
+**Installation time.** Creating the conda environment takes approximately
+3 minutes (measured: 173 s) with a warm conda package cache. A first-time
+installation on a clean machine is slower, since all packages must be
+downloaded.
+
+**Demo runtime.** The example single-scenario run described in
+[Quick start](#quick-start) takes approximately 4.5 minutes end to end
+(measured: 4 min 31 s), of which about 3.4 minutes is spent in Gurobi; the
+remainder is spent reading the Excel inputs, building the Pyomo model, and
+writing `output/year.nc`.
 
 ## Project layout
 
